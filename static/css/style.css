@@ -140,7 +140,7 @@ textarea {
 
 .btn:hover {
 	color: #fff;
-	background: #e64946;
+	background: #1D7874;
 }
 
 /* Animation */
@@ -199,7 +199,7 @@ a {
 }
 
 a:hover {
-	color: #e64946;
+	color: #1D7874;
 }
 
 hr {
@@ -305,7 +305,7 @@ blockquote {
 	margin: 0 0 20px;
 	margin: 0 0 1.25rem;
 	line-height: 1.6;
-	border-left: 5px solid #e64946;
+	border-left: 5px solid #1D7874;
 }
 
 blockquote p:last-child {
@@ -411,14 +411,14 @@ select {
 	font-size: .875rem;
 	font-weight: 700;
 	line-height: 1;
-	color: #e64946;
+	color: #1D7874;
 	border-top: 1px solid #ebebeb;
 }
 
 .divider {
 	height: 5px;
 	margin: 0;
-	background: #e64946;
+	background: #1D7874;
 	border: 0;
 }
 
@@ -455,7 +455,7 @@ select {
 }
 
 :focus > .menu__btn-title {
-	box-shadow: inset 0 0 1px 3px #e64946;
+	box-shadow: inset 0 0 1px 3px #1D7874;
 }
 
 button:not(:-moz-focusring):focus > .menu__btn-title {
@@ -468,7 +468,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .js .menu__btn--active {
-	color: #e64946;
+	color: #1D7874;
 }
 
 .menu__list {
@@ -477,7 +477,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__item:hover {
-	background: #e64946;
+	background: #1D7874;
 }
 
 .menu__item:first-child {
@@ -485,7 +485,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__item--active {
-	background: #e64946;
+	background: #1D7874;
 }
 
 .menu__link {
@@ -526,7 +526,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 @media screen and (min-width: 767px) {
 	.menu {
-		border-bottom: 5px solid #e64946;
+		border-bottom: 5px solid #1D7874;
 	}
 
 	.menu__btn {
@@ -582,7 +582,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .meta a:hover {
-	color: #e64946;
+	color: #1D7874;
 }
 
 .meta__item {
@@ -638,12 +638,12 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .content a,
 .warning a {
 	font-weight: 700;
-	color: #e64946;
+	color: #1D7874;
 }
 
 .content a:hover,
 .warning a:hover {
-	color: #e64946;
+	color: #1D7874;
 	text-decoration: underline;
 }
 
@@ -717,7 +717,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .tags__item:hover {
-	background: #e64946;
+	background: #1D7874;
 }
 
 .tags__link,
@@ -732,7 +732,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	height: 32px;
 	padding: 8px;
 	margin-right: 6px;
-	background: #e64946;
+	background: #1D7874;
 	fill: #fff;
 }
 
@@ -790,7 +790,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .toc__menu a {
 	display: block;
 	padding: 5px 10px;
-	color: #e64946;
+	color: #1D7874;
 	border-bottom: 1px solid #ebebeb;
 }
 
@@ -873,7 +873,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .pagination__item:hover,
 .pagination__item--current {
 	color: #fff;
-	background: #e64946;
+	background: #1D7874;
 }
 
 /* Post Navigation */
@@ -997,7 +997,7 @@ input[type=reset] {
 
 input[type=submit]:hover,
 input[type=reset]:hover {
-	background: #e64946;
+	background: #1D7874;
 }
 
 textarea {
@@ -1026,7 +1026,7 @@ textarea {
 	font-size: 16px;
 	font-size: 1rem;
 	text-transform: uppercase;
-	border-bottom: 3px solid #e64946;
+	border-bottom: 3px solid #1D7874;
 }
 
 .widget__item {
@@ -1104,7 +1104,7 @@ textarea {
 
 .widget-languages__link:hover .widget-languages__link-btn {
 	color: #fff;
-	background: #e64946;
+	background: #1D7874;
 }
 
 .widget-languages__link-btn {

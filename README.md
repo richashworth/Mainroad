@@ -18,10 +18,10 @@
 
 **Browser support:**
 
-+ **Desktop:** IE10+, Chrome, Firefox, Safari
++ **Desktop:** IE11+, Chrome, Firefox, Safari
 + **Mobile:** Android browser (on Android 4.4+), Safari (on iOS 7+), Google Chrome, Opera mini
 
-Other browsers (like Opera on Blink engine) are also supported, but not tested. Support for older versions of Internet Explorer (IE9 and below) ended.
+Other browsers (like Opera on Blink engine) are also supported, but not tested.
 
 ## Installation
 
@@ -67,9 +67,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   post_navigation = true # Show post navigation at bottom of pages if true
-  # post_meta = ["date", "categories", "translations"] # Order of post meta information. Use ["none"] to turn off completely.
-  postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
-  #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  #mainSections = ["post", blog", "news"] # specify section pages to show on home page and the "Recent articles" widget
   #dateformat = "2006-01-02" # change the format of dates
   #mathjax = true # Enable MathJax
   #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
@@ -98,8 +97,9 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   gitlab = "username"
   bitbucket = "username"
   email = "example@example.com"
-  google_plus = "profileid"
 ```
+
+A good idea is not copy  double check all the Configuration settings of Minimo.
 
 ### Front Matter example
 
@@ -110,8 +110,8 @@ date: "2017-08-21"
 description: "Example article description"
 thumbnail: "img/placeholder.jpg" # Optional, thumbnail
 lead: "Example lead - highlighted near the title"
-disable_comments: false # Optional, disable Disqus comments if true
-authorbox: true # Optional, enable authorbox for specific post
+comments: false # Enable/disable Disqus comments. Default value: true
+authorbox: true # Enable authorbox for specific post
 toc: true # Optional, enable Table of Contents for specific post
 mathjax: true # Optional, enable MathJax for specific post
 categories:

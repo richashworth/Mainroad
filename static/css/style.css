@@ -71,15 +71,12 @@ body {
 
 .flex {
 	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 }
 
 .primary {
 	-webkit-flex: 1 0 65.83%;
-	-ms-flex: 1 0 65.83%;
 	flex: 1 0 65.83%;
-	-ms-flex-order: 1;
 	-webkit-order: 1;
 	order: 1;
 	min-width: 0;
@@ -87,9 +84,7 @@ body {
 
 .sidebar {
 	-webkit-flex: 1 0 31.66%;
-	-ms-flex: 1 0 31.66%;
 	flex: 1 0 31.66%;
-	-ms-flex-order: 2;
 	-webkit-order: 2;
 	order: 2;
 	min-width: 0;
@@ -98,7 +93,6 @@ body {
 
 .sidebar--left {
 	-webkit-order: 0;
-	-ms-flex-order: 0;
 	order: 0;
 	margin: 0 2.5% 0 0;
 }
@@ -379,6 +373,7 @@ select {
 
 .warning__icon {
 	margin-bottom: 20px;
+	fill: #ddd;
 }
 
 /* Header */
@@ -419,43 +414,6 @@ select {
 	height: 5px;
 	margin: 0;
 	background: #1D7874;
-	border: 0;
-}
-
-/* Main menu */
-.no-js .menu__btn {
-	display: none;
-}
-
-.menu__btn {
-	display: block;
-	width: 100%;
-	padding: 0;
-	font: inherit;
-	color: #fff;
-	background: #2a2a2a;
-	border: 0;
-	outline: 0;
-}
-
-.menu__btn-title {
-	position: relative;
-	display: block;
-	padding: 10px 15px;
-	padding: .625rem .9375rem;
-	font-weight: 700;
-	text-align: right;
-	text-transform: uppercase;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-}
-
-:focus > .menu__btn-title {
-	box-shadow: inset 0 0 1px 3px #1D7874;
 }
 
 button:not(:-moz-focusring):focus > .menu__btn-title {
@@ -537,10 +495,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	.js .menu__list {
 		position: relative;
 		display: -webkit-flex;
-		display: -ms-flexbox;
 		display: flex;
 		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		visibility: visible;
 		border: 0;
@@ -878,7 +834,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 /* Post Navigation */
 .post-nav {
-	-ms-flex-pack: justify;
 	-webkit-justify-content: space-between;
 	justify-content: space-between;
 	padding-top: 25px;
@@ -904,7 +859,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .post-nav__item {
 	-webkit-flex: 1 1 50%;
-	-ms-flex: 1 1 50%;
 	flex: 1 1 50%;
 	max-width: 48%;
 }
@@ -1087,6 +1041,7 @@ textarea {
 .widget-social__link-icon {
 	margin: 0 5px 0 0;
 	vertical-align: middle;
+	fill: #fff;
 }
 
 /* Tags Widget */
@@ -1123,15 +1078,12 @@ textarea {
 
 .footer__container {
 	-webkit-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
 	flex-flow: row wrap;
-	-ms-flex-pack: justify;
 	-webkit-justify-content: space-between;
 	justify-content: space-between;
 }
 
 .footer__links {
-	-ms-flex-order: 1;
 	-webkit-order: 1;
 	order: 1;
 }

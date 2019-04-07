@@ -129,7 +129,7 @@ textarea {
 	font-weight: 700;
 	color: #fff;
 	white-space: pre-line;
-	background: #2a2a2a;
+	background: #999999;
 }
 
 .btn:hover {
@@ -1028,6 +1028,7 @@ textarea {
 
 /* Social widget */
 .widget-social__item {
+	/* fill: #fff; */
 	padding: 0;
 	border: 0;
 }

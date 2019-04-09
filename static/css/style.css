@@ -385,6 +385,42 @@ select {
 	padding: 25px;
 }
 
+/* Main menu */
+.no-js .menu__btn {
+	display: none;
+}
+
+ .menu__btn {
+	display: block;
+	width: 100%;
+	padding: 0;
+	font: inherit;
+	color: #fff;
+	background: #2a2a2a;
+	border: 0;
+	outline: 0;
+}
+
+ .menu__btn-title {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	padding: .625rem .9375rem;
+	font-weight: 700;
+	text-align: right;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+ :focus > .menu__btn-title {
+	box-shadow: inset 0 0 1px 3px #1D7874;
+}
+
 .logo__link {
 	display: inline-block;
 	text-transform: uppercase;
